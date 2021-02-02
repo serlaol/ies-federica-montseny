@@ -44,8 +44,9 @@ Comentamos para que no se elimine la tabla */
 
 /*DROP TABLE empleados;*/
 
-ALTER TABLE empleados 
-RENAME TO employees;
+ALTER TABLE nombre_tabla RENAME TO nuevo_nombre_tabla;                      
+
+ALTER TABLE empleados RENAME TO employees;             		
 
 /*
 	Cuidado con esta instrucción
@@ -69,15 +70,32 @@ ALTER TABLE employees ADD (
 	los datos del mismo
 */
 
-ALTER TABLE employees DROP COLUMN jefe;
+ALTER TABLE nombre_tabla 
+	DROP nombre_columna, 
+	DROP nombre_columna;
+
+ALTER TABLE employees					
+DROP jefe,
+DROP departamento;
 
 DESCRIBE employees;
 
 ALTER TABLE employees ADD (
-	boss VARCHAR(2)
+	boss VARCHAR(2),
+    departamento BIT
 );
 
-ALTER TABLE employees MODIFY boss VARCHAR(20);
+/*
+DEFINICIÓN
+
+ALTER TABLE nombre_tabla 
+MODIFY columna1 tipo_dato [ restricciones de columna1], 
+MODIFY columna2 tipo_dato [ restricciones de columna2],
+...;*/ 
+
+ALTER TABLE employees 
+MODIFY boss VARCHAR(20), 
+MODIFY departamento BIT;
  
 	
 
