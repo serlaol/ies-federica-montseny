@@ -8,9 +8,9 @@ public class calculaMaximo {
         int max;
         System.out.println("Calculo del número máximo");
         System.out.println("Introduce 3 números");
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
-        int num3 = scan.nextInt();
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
 
         // Calcular el maximo y asignarlo a max
         if (a > b && a > c)
