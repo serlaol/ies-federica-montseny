@@ -13,7 +13,15 @@ public class calculaMaximo {
         int num3 = scan.nextInt();
 
         // Calcular el maximo y asignarlo a max
-        if(a>b && a>c) { max = a; } else if(b>c) { max = b; } else { max = c; }
+        if (a > b && a > c)
+        {
+            max = a;
+        }
+        else if (b > c)
+        {
+            max = b;
+        }
+        else { max = c; }
 
         System.out.println(max);
     }
