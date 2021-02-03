@@ -23,6 +23,6 @@ public class calculaMaximo {
         }
         else { max = c; }
 
-        System.out.println(max);
+        System.out.println("El máximo es: " + max);
     }
 }
