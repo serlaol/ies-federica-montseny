@@ -6,8 +6,10 @@ public class calculaMaximo {
 
     public static void main(String[] args) {
         int max;
+
         System.out.println("Calculo del número máximo");
         System.out.println("Introduce 3 números");
+
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
