@@ -26,5 +26,7 @@ public class calculaMaximo {
         else { max = c; }
 
         System.out.println("El máximo es: " + max);
+
+        System.out.println("Esto es una prueba");
     }
 }
