@@ -28,5 +28,7 @@ public class calculaMaximo {
         System.out.println("El máximo es: " + max);
 
         System.out.println("Esto es una prueba");
+
+	/* Esto es un comentario */	
     }
 }
